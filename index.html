@@ -6,35 +6,66 @@
     <title>Shubham Kumar | Software Engineer</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        brand: {
-                            light: '#60a5fa', // blue-400
-                            DEFAULT: '#3b82f6', // blue-500
-                            dark: '#1e3a8a', // blue-900
-                        }
-                    }
-                }
-            }
-        }
-    </script>
 </head>
-<body class="bg-slate-900 text-slate-300 font-sans antialiased selection:bg-brand selection:text-white">
+<body class="bg-slate-900 text-slate-300 font-sans antialiased selection:bg-blue-500 selection:text-white">
 
     <nav class="fixed w-full bg-slate-900/90 backdrop-blur-sm z-50 border-b border-slate-800">
         <div class="max-w-5xl mx-auto px-6 py-4 flex justify-between items-center">
             <a href="#" class="text-xl font-bold text-white tracking-wider">SK.</a>
             <div class="space-x-6 text-sm font-medium">
-                <a href="#about" class="hover:text-brand-light transition-colors">About</a>
-                <a href="#experience" class="hover:text-brand-light transition-colors">Experience</a>
-                <a href="#skills" class="hover:text-brand-light transition-colors">Skills</a>
-                <a href="#education" class="hover:text-brand-light transition-colors">Education</a>
+                <a href="#about" class="hover:text-blue-400 transition-colors">About</a>
+                <a href="#experience" class="hover:text-blue-400 transition-colors">Experience</a>
+                <a href="#skills" class="hover:text-blue-400 transition-colors">Skills</a>
+                <a href="#education" class="hover:text-blue-400 transition-colors">Education</a>
             </div>
         </div>
     </nav>
 
     <header class="pt-32 pb-20 px-6 max-w-5xl mx-auto flex flex-col items-center text-center">
-        <div class="inline-block px-4 py-1.5 rounded-full border border-brand/30 bg-brand/10 text-brand-light
+        <div class="inline-block px-4 py-1.5 rounded-full border border-blue-500/30 bg-blue-500/10 text-blue-400 text-sm font-medium mb-6">
+            Senior Software Engineer
+        </div>
+        <h1 class="text-5xl md:text-7xl font-extrabold text-white mb-6 tracking-tight">
+            Shubham Kumar
+        </h1>
+        <p class="text-xl md:text-2xl text-slate-400 max-w-2xl mb-10 leading-relaxed">
+            Building scalable backend architectures and leading Generative AI innovation.
+        </p>
+        <div class="flex space-x-5">
+            <a href="https://www.linkedin.com/in/djshubh" target="_blank" class="p-3 rounded-full bg-slate-800 hover:bg-blue-600 hover:text-white transition-all duration-300 text-xl text-slate-300">
+                <i class="fab fa-linkedin-in w-6 h-6 flex items-center justify-center"></i>
+            </a>
+            <a href="mailto:shubhamkmr698@gmail.com" class="p-3 rounded-full bg-slate-800 hover:bg-blue-600 hover:text-white transition-all duration-300 text-xl text-slate-300">
+                <i class="fas fa-envelope w-6 h-6 flex items-center justify-center"></i>
+            </a>
+            <span class="flex items-center text-slate-400 ml-4 border-l border-slate-700 pl-4">
+                <i class="fas fa-map-marker-alt mr-2 text-blue-400"></i> New Delhi, India
+            </span>
+        </div>
+    </header>
+
+    <main class="max-w-5xl mx-auto px-6 space-y-24 pb-24">
+        
+        <section id="about" class="scroll-mt-24">
+            <h2 class="text-3xl font-bold text-white mb-8 flex items-center">
+                <span class="w-8 h-1 bg-blue-600 mr-4 rounded-full"></span> About Me
+            </h2>
+            <div class="bg-slate-800/50 p-8 rounded-2xl border border-slate-700/50 leading-relaxed space-y-4 text-lg">
+                <p>
+                    A Coder by Heart, I've embraced various roles throughout my career, transitioning seamlessly from frontend and backend engineer to team lead, where I've led the successful delivery of numerous critical features to production.
+                </p>
+                <p>
+                    As an algorithmic research student, I immersed myself in scholarly pursuits, resulting in the publication of a paper in a prestigious journal. My experience as a teaching assistant empowered me to mentor and inspire students, nurturing their creativity and guiding them in building exciting projects.
+                </p>
+                <p>
+                    From gathering requirements to facilitating communication and soliciting feedback, collaboration lies at the heart of my approach. I thrive on working with others to transform ideas into tangible realities.
+                </p>
+            </div>
+        </section>
+
+        <section id="experience" class="scroll-mt-24">
+            <h2 class="text-3xl font-bold text-white mb-10 flex items-center">
+                <span class="w-8 h-1 bg-blue-600 mr-4 rounded-full"></span> Professional Experience
+            </h2>
+            
+            <div class="space-y-8 relative before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:
